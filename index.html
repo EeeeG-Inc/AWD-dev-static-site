@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NG Referer Test</title>
+</head>
+<body>
+    <h1>不正なリファラー</h1>
+
+    <h2>本番環境 URL</h2>
+    <p>
+        <a href="https://www.asahi.com/awd/auth/alliance" target="_blank">
+            https://www.asahi.com/awd/auth/alliance
+        </a>
+    </p>
+
+    <p>
+        <a href="https://digital.asahi-weekly.asahi.com/awd/auth/alliance" target="_blank">
+            https://digital.asahi-weekly.asahi.com/awd/auth/alliance
+        </a>
+    </p>
+
+    <h2>検証環境 URL</h2>
+    <p>
+        <a href="https://wwwcdn.asahi.com/awd/auth/alliance" target="_blank">
+            https://wwwcdn.asahi.com/awd/auth/alliance
+        </a>
+    </p>
+
+    <h2>開発者用 URL (Docker: localhost:9000)</h2>
+    <p>
+        <a href="http://localhost:9000/awd/auth/alliance" target="_blank">
+            http://localhost:9000/awd/auth/alliance
+        </a>
+    </p>
+</body>
+</html>
